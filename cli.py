@@ -6,7 +6,6 @@ shell that can stay online for schedules.
 
     python cli.py
     python cli.py scan base
-    python main.py              (same CLI; --confirm-live still fires config.py)
     python telegram_bot.py      (Telegram)
 """
 

@@ -14,7 +14,7 @@ Telegram tokens into issues, PRs, logs, or chat.
 | `discovery.py` | OpenSea drop calendar. |
 | `config.py` | Non-secret settings and chain registry. |
 | `assets/chains/` | Network logos. Regenerate with `python scripts/fetch_chain_logos.py`. |
-| `main.py` | Shim that calls `cli.py`. `--confirm-live` is the old one-drop path. |
+| `main.py` | Legacy one-drop runner. Prefer `cli.py` for new use and changes. |
 
 ## Dev loop
 
