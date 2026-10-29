@@ -13,7 +13,7 @@ This software can spend gas and mint NFTs from a wallet you control.
 ## Reporting a vulnerability
 
 Open a **private** GitHub security advisory on
-[Takumixbt/OpenSea-Mint-Bot](https://github.com/Takumixbt/OpenSea-Mint-Bot),
+[Takumixbt/Opensea-bot](https://github.com/Takumixbt/Opensea-bot),
 or email the maintainer through GitHub. Do not file a public issue that
 includes a working exploit against live wallets.
 

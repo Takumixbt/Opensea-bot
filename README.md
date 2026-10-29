@@ -1,6 +1,6 @@
 # OpenSea Mint Bot
 
-[![Tests](https://github.com/Takumixbt/OpenSea-Mint-Bot/actions/workflows/tests.yml/badge.svg)](https://github.com/Takumixbt/OpenSea-Mint-Bot/actions/workflows/tests.yml)
+[![Tests](https://github.com/Takumixbt/Opensea-bot/actions/workflows/tests.yml/badge.svg)](https://github.com/Takumixbt/Opensea-bot/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 This is a small Python bot for finding OpenSea mints and sending them from a
@@ -63,8 +63,8 @@ Telegram is optional.
 On Windows, from a folder you own:
 
 ```powershell
-git clone https://github.com/Takumixbt/OpenSea-Mint-Bot.git
-cd OpenSea-Mint-Bot
+git clone https://github.com/Takumixbt/Opensea-bot.git
+cd Opensea-bot
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
@@ -158,7 +158,7 @@ Paste this to a coding agent. It must not send a transaction or ask you to
 paste secrets into chat.
 
 ```text
-Set up OpenSea Mint Bot from https://github.com/Takumixbt/OpenSea-Mint-Bot.git
+Set up OpenSea Mint Bot from https://github.com/Takumixbt/Opensea-bot.git
 
 Work only inside a new project folder. Do not touch unrelated repos.
 
@@ -192,7 +192,7 @@ sudo apt install -y git python3 python3-venv
 sudo useradd --system --create-home --shell /usr/sbin/nologin openseabot
 sudo mkdir -p /opt/opensea-mint-bot
 sudo chown openseabot:openseabot /opt/opensea-mint-bot
-sudo -u openseabot git clone https://github.com/Takumixbt/OpenSea-Mint-Bot.git /opt/opensea-mint-bot
+sudo -u openseabot git clone https://github.com/Takumixbt/Opensea-bot.git /opt/opensea-mint-bot
 sudo -u openseabot python3 -m venv /opt/opensea-mint-bot/.venv
 sudo -u openseabot /opt/opensea-mint-bot/.venv/bin/pip install -r /opt/opensea-mint-bot/requirements.txt
 sudo -u openseabot cp /opt/opensea-mint-bot/.env.example /opt/opensea-mint-bot/.env
