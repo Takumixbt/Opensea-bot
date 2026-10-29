@@ -7,8 +7,6 @@ Scan OpenSea drops, inspect a stage, and mint from a wallet you control. Run the
 terminal CLI or optional Telegram bot locally; your wallet key signs transactions
 on that machine.
 
-![OpenSea Mint Bot CLI demo](assets/cli-demo.gif)
-
 ## Quick start
 
 You need Python 3.11+, an [Alchemy API key](https://www.alchemy.com/), an
